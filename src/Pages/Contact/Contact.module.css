@@ -1,0 +1,28 @@
+.top_section {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_section_h1 {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.bottom_section {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
