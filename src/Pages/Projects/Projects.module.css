@@ -1,12 +1,19 @@
 .main {
     width: 100%;
+    height: auto;
 }
 
 .project_container {
     width: 100%;
+    height: auto;
 }
 
 .ul {
     list-style-type: none;
     list-style-position: inside;
+}
+
+.li {
+    width: 100%;
+    height: auto;
 }

@@ -10,6 +10,7 @@ function Project(props) {
             <div className={styles.right}>
                 <h1 className={styles.h1}>{props.title}</h1>
                 <p className={styles.p}>{props.desc}</p>
+                <p className={styles.madewith}>Made with: </p><b>{props.tech}</b>
             </div>
         </div>
     );

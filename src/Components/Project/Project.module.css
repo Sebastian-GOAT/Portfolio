@@ -33,3 +33,7 @@
     text-align: center;
     width: min(80%, 300px);
 }
+
+.madewith {
+    margin-top: 1rem;
+}
