@@ -8,14 +8,12 @@ import Technologies from './Pages/Technologies/Technologies.jsx';
 function App() {
 
   return (
-    <HashRouter>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/technologies' element={<Technologies />} />
       </Routes>
-    </HashRouter>
   );
 }
 
